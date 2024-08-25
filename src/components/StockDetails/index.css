@@ -1,0 +1,24 @@
+.main-stock-bg-container{
+    background-image:url("https://i.pinimg.com/736x/f9/7b/cd/f97bcdf5afe8474461c40f955ce0ec4d.jpg");
+    height: 100vh;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.real-time-stock-heading{
+    color: rgb(30, 205, 221);
+    font-family: "Roboto" "sans-serif";
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+
+}
+@media  screen and (min-width:768px) {
+    .real-time-stock-heading{
+        font-size: 50px;
+    }
+    
+}
